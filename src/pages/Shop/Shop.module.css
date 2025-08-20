@@ -1,0 +1,33 @@
+.shop {
+  margin-top: 2.5rem;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3xs-2xs);
+  margin-block: var(--space-l-xl);
+}
+
+.heading h2 {
+  font-size: var(--step-3);
+  color: var(--color-primary);
+}
+
+.heading svg {
+  font-size: var(--step-5);
+  color: var(--color-secondary);
+}
+
+.productSection {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(17.5rem, 1fr));
+  gap: var(--space-s-m);
+}
+
+@media (width < 48rem) {
+  .productSection {
+    grid-template-columns: repeat(auto-fill, minmax(13.5rem, 1fr));
+  }
+}

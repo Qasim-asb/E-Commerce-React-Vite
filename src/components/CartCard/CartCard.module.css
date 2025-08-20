@@ -1,0 +1,65 @@
+.cartCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-2xs-xs);
+  border: 0.07rem solid var(--color-border);
+  border-radius: 0.5rem;
+  background: var(--color-bg);
+  gap: var(--space-s-m);
+}
+
+.leftCard {
+  flex: 1;
+  height: var(--space-2xl-3xl);
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs-s);
+  padding: var(--space-3xs-2xs);
+}
+
+.leftCard img {
+  max-width: 25%;
+  height: 100%;
+  padding: var(--space-3xs-2xs);
+  object-fit: contain;
+  background: #f3f4f6;
+  border-radius: var(--radius-sm);
+}
+
+.name_price {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.name_price span:first-child {
+  font-weight: 600;
+}
+
+.name_price span:last-child {
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.rightCard button {
+  font-size: var(--step--2);
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.5em 1em;
+  background: #ef4444;
+  color: white;
+  border-radius: 0.25rem;
+  transition: var(--transition-smooth);
+}
+
+.rightCard button:hover {
+  background: #dc2626;
+}
+
+@media (width < 48rem) {
+  .cartCard {
+    flex-direction: column;
+  }
+}
