@@ -1,12 +1,35 @@
-# React + Vite
+# V-Shop 🛍️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive e-commerce platform built with React and Redux Toolkit.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🛒 **Shopping Cart** - Add/remove items with persistent state management
+- 📱 **Responsive Design** - Completely responsive with fluid typography
+- 🌙 **Dark/Light Theme** - Automatic theme switching based on system preferences
+- 🏷️ **Category Filtering** - Browse products by categories (Electronics, Fashion, Beauty, etc.)
+- ⚡ **Fast Performance** - Built with React 18 and Vite
+- 🎨 **Modern UI** - Clean design with CSS custom properties and smooth animations
 
-## Expanding the ESLint configuration
+## Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Desktop Light Theme](./screenshots/desktop-light-theme.png)
+*Desktop view with light theme - Home page with product categories*
+
+![Mobile Dark Theme](./screenshots/mobile-dark-theme.png)
+*Mobile view with dark theme - Home page with product categories*
+
+## Tech Stack
+
+- **Frontend:** React 18
+- **State Management:** Redux Toolkit
+- **Routing:** React Router
+- **Styling:** CSS Modules with Custom Properties
+- **Build Tool:** Vite
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Qasim-asb/E-Commerce-React-Vite.git
+cd E-Commerce-React-Vite
